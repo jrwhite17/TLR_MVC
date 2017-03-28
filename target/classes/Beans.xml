@@ -12,7 +12,7 @@
       <property name = "username" value = "root"/>
       <property name = "password" value = ""/>
    </bean>
-
+   <!-- Info -->
    <!-- Definition for studentJDBCTemplate bean -->
    <bean id = "teamJDBCTemplate" 
       class = "com.jrw.controller.TeamJDBCTemplate">
