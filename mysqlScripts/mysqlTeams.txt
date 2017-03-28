@@ -1,0 +1,13 @@
+CREATE TABLE teams (
+    abbreviation varchar(3) NOT NULL,
+    city varchar(255) NOT NULL,
+    name varchar(255) NOT NULL,
+    primaryColor varchar(7) NOT NULL,
+    secondaryColor varchar(7) NOT NULL,
+    PRIMARY KEY (abbreviation)
+);
+
+INSERT INTO teams
+VALUES ('CHW', 'Chicago', 'White Sox', '#C4CED4', '#000000'),
+('OAK', 'Oakland', 'Athletics', '#003831', '#EFB21E'),
+('STL', 'St.Louis', 'Cardinals', '#C41E3A', '#FEDB00');
